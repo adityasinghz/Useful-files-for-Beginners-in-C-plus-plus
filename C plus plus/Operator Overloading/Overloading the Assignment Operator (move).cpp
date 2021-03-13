@@ -48,5 +48,5 @@ int main() {
 MOVE_ASSIGNMENT_OPERATOR OBJ1{"MOVE"};
 MOVE_ASSIGNMENT_OPERATOR OBJ2="HII";
 MOVE_ASSIGNMENT_OPERATOR OBJ3;
-OBJ1=OBJ2;                                        //This willn't work for movr because OBJ IS AN L value So for that we have to add a copy constructor
+OBJ1=OBJ2;                                        //This willn't work for move constructor because OBJ2 IS AN L value So for that we have to add a copy constructor
 }
