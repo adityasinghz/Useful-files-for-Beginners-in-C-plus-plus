@@ -12,8 +12,6 @@ MOVE_ASSIGNMENT_OPERATOR &operator=(MOVE_ASSIGNMENT_OPERATOR &&rhs);//ASSIGNMENT
 };
 MOVE_ASSIGNMENT_OPERATOR:: MOVE_ASSIGNMENT_OPERATOR()
 :str{nullptr}{
- static int count=0;
- count++;
  cout<<" default constructor is been called "<<endl;
  str= new char[1];
  *str='\0';
